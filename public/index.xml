@@ -1,0 +1,9 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>benjohnston.me</title>
+        <link>https://benjohnston.me/</link>
+        <description>About Ben</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-au</language>
+            <atom:link href="https://benjohnston.me/index.xml" rel="self" type="application/rss+xml" />
+        </channel>
+</rss>

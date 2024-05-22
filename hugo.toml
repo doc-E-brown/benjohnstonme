@@ -20,13 +20,21 @@ theme = "FeelIt"
     title  = ""
     weight = 1
     [[menu.main]]
+    identifier = "media"
+    pre        = ""
+    post       = ""
+    name       = "Media"
+    url        = "/media/"
+    title      = ""
+    weight     = 2
+    [[menu.main]]
     identifier = "tags"
     pre        = ""
     post       = ""
     name       = "Tags"
     url        = "/tags/"
     title      = ""
-    weight     = 2
+    weight     = 3
     [[menu.main]]
     identifier = "categories"
     pre        = ""
@@ -34,7 +42,7 @@ theme = "FeelIt"
     name       = "Categories"
     url        = "/categories/"
     title      = ""
-    weight     = 3
+    weight     = 4
     [[menu.main]]
     identifier = "about"
     pre        = ""
@@ -42,15 +50,15 @@ theme = "FeelIt"
     name       = "About"
     url        = "/about/"
     title      = ""
-    weight     = 4
+    weight     = 5
     [[menu.main]]
     identifier = "github"
     pre        = "<i class='fa-brands fa-github fa-fw'></i>"
     post       = ""
     name       = ""
-    url        = "https://github.com/docEbrown"
+    url        = "https://github.com/doc-E-brown"
     title      = "GitHub"
-    weight     = 5
+    weight     = 6
 
 [params]
 # FeelIt theme version
@@ -211,7 +219,13 @@ param = true
 paramTitle = "Ben Johnston Ph.D"
 # general description of your site
 # can be write with markdown style
-description = "Something about me"
+description = """
+I'm an experienced software engineer who **loves** building new and interesting things in software.
+I strongly believe in the benefits of life long learning and I hope that my posts on this site can help
+(at least in a small way) for others to see the advantages in continuous learning as well.
+The posts on this site are a reflection of my own thoughts and interests and do not reflect those of my
+employer or any other organisation I may be affiliated with.
+"""
     # description of your status
     [[params.about.status]]
     faIcon = "fa-solid fa-building"
@@ -226,15 +240,15 @@ description = "Something about me"
     faIcon = "fa-solid fa-map-marker-alt"
     desc   = "Australia"
     # description of your parameter
-    # [[params.about.parameter]]
-    # language = "UI/UX"
-    # level    = "80"
-    # [[params.about.parameter]]
-    # language = "HTML"
-    # level    = "70"
-    # [[params.about.parameter]]
-    # language = "Go"
-    # level    = "60"
+    [[params.about.parameter]]
+    language = "Technical Leadership"
+    level    = "90"
+    [[params.about.parameter]]
+    language = "Rust/Python/C++"
+    level    = "90"
+    [[params.about.parameter]]
+    language = "Typescript"
+    level    = "75"
 
 # Home page config
 [params.home]
@@ -252,7 +266,7 @@ rss = 10
     # 
     title = "benjohnston.me"
     # subtitle shown in home page
-    subtitle = "About me, Ben Johnston"
+    subtitle = "thoughts... ramblings.... about me"
     # whether to use typeit animation for subtitle
     typeit = true
     # whether to show social links
@@ -453,20 +467,20 @@ rssFullText = false
     Pinterest     = false
     Tumblr        = false
     HackerNews    = false
-    Reddit        = false
+    Reddit        = true
     VK            = false
     Buffer        = false
     Xing          = false
-    Line          = true
+    Line          = false
     Instapaper    = false
     Pocket        = false
     Digg          = false
     Stumbleupon   = false
     Flipboard     = false
-    Weibo         = true
+    Weibo         = false
     Renren        = false
-    Myspace       = true
-    Blogger       = true
+    Myspace       = false
+    Blogger       = false
     Baidu         = false
     Odnoklassniki = false
     Evernote      = true
@@ -688,8 +702,8 @@ endLevel   = 6
 # Author config
 [author]
 name  = "Ben Johnston"
-email = ""
-link  = ""
+email = "bpjohnston@protonmail.com"
+link  = "benjohnston.me"
 
 # Sitemap config
 [sitemap]

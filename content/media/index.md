@@ -1,11 +1,7 @@
 ---
 title: 'Media'
 date: 2024-05-22T23:13:01+10:00
-draft: true
-
-resources:
-- name: "sql_data_analytics"
-  src: "sql_data_analytics.jpeg"
+draft: false 
 ---
 
 ## Publications

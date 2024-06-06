@@ -153,7 +153,7 @@ mobileMode = "auto"
     # URL of the LOGO
     logo = ""
     # title name
-    name = "Ben Johnston"
+    name = "Dr. Ben Johnston"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
@@ -216,7 +216,7 @@ enable = true
 # whether to enable param layout
 param = true
 # title for param layout
-paramTitle = "Ben Johnston Ph.D"
+paramTitle = "Dr. Ben Johnston"
 # general description of your site
 # can be write with markdown style
 description = """
@@ -701,7 +701,7 @@ endLevel   = 6
 
 # Author config
 [author]
-name  = "Ben Johnston"
+name  = "Dr. Ben Johnston"
 email = "bpjohnston@protonmail.com"
 link  = "benjohnston.me"
 
